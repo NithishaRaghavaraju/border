@@ -1,0 +1,35 @@
+.container {
+    margin: auto;
+    margin-top: 5%;
+    position: relative;
+    border-radius: 3%;
+    height: 600px;
+    width: 30%;
+    background-color: black; 
+  }
+  
+  .semicircle{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90px;
+    height: 45px;
+    border-radius: 0 0 12rem 12rem;
+    background-color: #fff;
+  }
+  .circle{
+    position: relative;
+    font-size: 90px;
+    color: #e1cfcf;
+    width: 40px;
+    height: 40px;
+    padding: 19px;
+    background: black;
+    border-radius: 100%;
+    top: -40px;
+    left: calc(50% - 40px);
+  }
+
+  
